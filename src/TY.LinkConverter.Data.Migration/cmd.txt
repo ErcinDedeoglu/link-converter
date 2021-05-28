@@ -1,0 +1,3 @@
+﻿add-migration Initial -Context "DataContext" -StartupProject "TY.LinkConverter.WebAPI" -Project "TY.LinkConverter.Data.Migration"
+update-database -Context "DataContext" -StartupProject "TY.LinkConverter.WebAPI" -Project "TY.LinkConverter.Data.Migration"
+remove-migration -Context "DataContext" -StartupProject "TY.LinkConverter.WebAPI" -Project "TY.LinkConverter.Data.Migration"
